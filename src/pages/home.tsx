@@ -13,8 +13,8 @@ export const Home = () => {
           <button className="py-2 px-4 font-semibold bg-rat text-white rounded-lg" onClick={(e) => { e.preventDefault() }}>Jugar</button>
         </form>
       </div>
-      <div>
-        <p>Para crear una sala primero</p>
+      <div className="flex flex-col gap-3">
+        <p className="text-gray-800">Para crear una sala primero</p>
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-10 items-center">
           <Link to={"/regsiter"} className="text-nose font-semibold underline-offset-5 hover:underline text-lg">Registrarte</Link>
           <Link to={"/login"} className="text-nose font-semibold underline-offset-5 hover:underline text-lg">Ingresar</Link>
