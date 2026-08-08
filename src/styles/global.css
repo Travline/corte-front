@@ -19,4 +19,11 @@
   body {
     font-family: var(--font-mono)
   }
+
+  html {
+    -webkit-text-size-adjust: none;
+    scroll-behavior: smooth;
+    font-size: clamp(16px, 2.5vw, 20px);
+    scrollbar-gutter: stable;
+  }
 }
